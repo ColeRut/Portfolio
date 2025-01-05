@@ -521,3 +521,32 @@ nav a:hover{
 .image-text-wrapper{
   text-align: center;
 }
+
+.keezer-list{
+  line-height: .75
+}
+
+.my-slides{
+  text-align: center;
+}
+
+.my-slides img{
+  width: 23vw;
+  height: auto;
+  border-radius: 2vw;
+}
+
+.slide-image-container{
+  display:inline-block;
+  align-items: center;
+  padding-left: .5vw;
+  padding-right: .5vw;
+}
+
+.slide-text{
+  width: 20vw;
+}
+
+.slide-text p{
+  font-size: 1.4vw;
+}

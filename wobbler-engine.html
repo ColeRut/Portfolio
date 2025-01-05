@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Project: Wobbler Engine</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">C/R</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="links">
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li class="active"><a href="wobbler-engine.html">Current Page</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/cole-rutkowski-478276306/" class="icon brands fa-linkedin"  target="_blank"><span >LinkedIn</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="main">
+        <section>
+            <h2>Wobbler Engine</h2>
+            <h5></h5>
+            <p>By Cole Rutkowski</p>
+            <div>
+                <img class="image img50" src="images/wobbler-engine/front-view.png" alt="Wobbler Cover Pic">
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <h3>Background:</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                In the Fall of 2024, I landed a job as a machine shop assistant for the MCEN1025 class at CU, a freshman-level engineering class focused on 
+                introducing CAD modeling, engineering drawings, geometric dimensioning and tolerancing, and manufacturing methods to students. 
+                The most intensive project in the class is to model an air-powered wobbler engine, create thorough engineering drawings, then 
+                manufacture and assemble the parts. The metric each group must achieve is an engine that operates at an air pressure of 10psi or less;
+                the best engines typically run at a pressure of 1-3 psi.
+                On the last day of class, the students compete in an engine runoff and crown a winner for 
+                the most efficient engine.
+            </p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                In my role as a shop assistant, I guide the students through the machining of their parts and teach them safe operation of our
+                machines. Most of the students have never stepped foot in a shop, much less seen the machines we use. In the span of five 2-hour
+                timeslots, the students learn how to safely operate our mills, lathes, drill presses, and bandsaws; how to use tools such as 
+                chucks, collets, edgefinders, drills, endmills, and reamers; and how read an engineering drawing and determine a sufficient
+                order of operations to manufacture the part.
+            </p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Having worked with the students all Fall, I was keen on making my own engine. In my spare time, I went in to the shop 
+                to make each part again, but this time for myself. Afterwards,
+                I decided to recreate the models and drawings based off of my knowledge and memory of the drawings the students used
+                in the shop.
+            </p>
+        </section>
+
+
+        
+        <section>
+            <div>
+                <button onclick="plusDivs(-1)">&#10094;</button>
+                <button onclick="plusDivs(1)">&#10095;</button>
+
+
+                <div class="my-slides">
+                    
+                    <img class="image img75" src="images/wobbler-engine/Flywheel.JPG" alt="Flywheel">
+                    <p class="centered-graph-title">Flywheel</p>
+                </div>
+                <div class="my-slides">
+                    
+                    <img class="image img75" src="images/wobbler-engine/Valve Plate.JPG" alt="Valve Plate">
+                    <p class="centered-graph-title">Valve Plate</p>
+                    
+                </div>
+                <div class="my-slides">
+                    
+                    <img class="image img75" src="images/wobbler-engine/Base Plate.JPG" alt="Base Plate">
+                    <p class="centered-graph-title">Base Plate</p>
+                </div>
+                <div class="my-slides">
+                    
+                    <img class="image img75" src="images/wobbler-engine/Crankdisk.JPG" alt="Crankdisk">
+                    <p class="centered-graph-title">Crankdisk</p>
+                </div>
+                <div class="my-slides">
+                    
+                    <img class="image img75" src="images/wobbler-engine/Cylinder Block.JPG" alt="Cylinder Block">
+                    <p class="centered-graph-title">Cylinder Block</p>
+                </div>
+                <div class="my-slides">
+                    
+                    <img class="image img75" src="images/wobbler-engine/Piston.JPG" alt="Piston">
+                    <p class="centered-graph-title">Piston</p>
+                </div>
+
+            
+                
+            </div>
+
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusDivs(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function showSlides(n) {
+                    const slides = document.querySelectorAll(".my-slides");
+                    if (n > slides.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = slides.length}
+                    slides.forEach(slide => slide.style.display = "none");
+                    slides[slideIndex - 1].style.display = "block";
+                }
+            </script>
+        </section>
+
+
+        
+
+
+        <section>
+            <div>
+                <div>
+                    
+                    <img class="image img75" src="images/wobbler-engine/Wobbler Engine Assembly_page-0001.jpg" alt="Assembly">
+                    <p class="centered-graph-title">Assembly</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <div>
+                    
+                    <img class="image img75" src="images/wobbler-engine/Wobbler Engine Assembly_page-0002.jpg" alt="Exploded Assembly">
+                    <p class="centered-graph-title">Exploded Assembly</p>
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <h3>Results:</h3>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                After manufacturing and assembling my engine, I was ready to put it to the test, head-to-head with the students I 
+                worked with all semester. On the day of the runoff, I was able to compete in a special student-vs-assistant competition
+                after the student winners were crowned. In my race, I was put up against the 5 best engines, ultimately
+                finishing the run-off in 2<sup>nd</sup>, behind the overall winner of the student competition.
+                Out of 100 students, I was very happy to place 2<sup>nd</sup> and even more impressed with the quality of the
+                winning team. The top 5 groups all ran at 3 psi, and I was able to hit 2 psi before sputtering out, but the winning
+                engine was still chugging along at 1 psi!
+            </p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                In my role as a shop assistant, I expanded my knowledge of the shop and my skills with the machines. The repitition 
+                of making the same parts several times refined my efficiency and knowledge of manufacturing with lathes and mills and 
+                reading engineering drawings, and my role as a teacher strengthed my confidence and gave me a stronger understanding
+                of the manufacturing processes. I also freshened my CAD modeling skills when I revisted the design part of the project
+                myself. Above, you can find the drawings and model of the engine.
+            </p>
+        </section>
+
+
+
+
+        
+    </div>
+
+    <!-- Footer -->
+    <div id="copyright">
+        <ul>
+            <li>&copy; 2024 Cole Rutkowski.</li>
+            <li>All rights reserved.</li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
