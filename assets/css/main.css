@@ -4773,3 +4773,34 @@ input, select, textarea {
 	.citations{
 		font-size: 75%;
 	}
+
+
+
+	/* Hide all slides by default; JS will show the active one */
+.mySlides1,
+.mySlides2,
+.mySlides3,
+.mySlides4 {
+  display: none;
+  text-align: center;
+}
+
+/* Robust image sizing for all slideshows */
+.slideshow-container .mySlides1 img,
+.slideshow-container .mySlides2 img,
+.slideshow-container .mySlides3 img,
+.slideshow-container .mySlides4 img {
+  display: block;           /* allows margin centering */
+  margin: 0 auto;
+  width: min(23vw, 700px);  /* cap width so it can’t blow past screen on large displays */
+  max-width: 100%;          /* never exceed viewport on small screens */
+  height: auto;
+  border-radius: 2vw;
+  object-fit: contain;
+}
+
+/* Keep anything inside from bleeding out */
+.slideshow-container {
+  width: 100%;
+  overflow: hidden;
+}
